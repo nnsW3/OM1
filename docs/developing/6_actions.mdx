@@ -27,7 +27,7 @@ This plugin is an example of how to directly connect to the Unitree python SDK t
 
 ## Speech and TTS
 
-The Speech and TTS action plugin allows agents to speak using with a text-to-speech (TTS) system.
+The Speech and TTS action plugin allows agents to speak using a text-to-speech (TTS) system.
 
 [**Code**](https://github.com/OpenMind/OM1/blob/main/src/actions/speak/connector/elevenlabs_tts.py)
 
@@ -51,5 +51,6 @@ actions/
         ├── zenoh.py
         └── unitree.py
 ```
+
 
 In general, each robot will have specific capabilities, and therefore, each action will be hardware specific. For example, if you are adding support for the Unitree G1 Humanoid version 13.2b, which supports a new movement subtype such as `dance_2`, you could name the updated action `move_unitree_g1_13_2b` and select that action in your `unitree_g1.json` configuration file.
