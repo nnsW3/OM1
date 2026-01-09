@@ -118,10 +118,10 @@ We'll shortly be releasing the **BOM** and details on **DIY** for it.
 Stay tuned!
 
 Clone the following repos -
-- https://github.com/OpenMind/OM1.git
-- https://github.com/OpenMind/unitree-sdk.git
-- https://github.com/OpenMind/OM1-avatar.git
-- https://github.com/OpenMind/OM1-video-processor.git
+- [OM1](https://github.com/OpenMind/OM1.git)
+- [unitree-sdk](https://github.com/OpenMind/unitree-sdk.git)
+- [OM1-avatar](https://github.com/OpenMind/OM1-avatar.git)
+- [OM1-video-processor](https://github.com/OpenMind/OM1-video-processor.git)
 
 ## Starting the system
 To start all services, run the following commands:
